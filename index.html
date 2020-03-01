@@ -1,0 +1,258 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="img.PNG" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title></title>
+  </head>
+
+  <body>
+    <nav class="nav nav-pills fixed-top flex-column flex-sm-row lien">
+        <a class="flex-sm-fill text-sm-center nav-link lien" href="#about">About Us</a>
+        <a class="flex-sm-fill text-sm-center nav-link lien" href="#service">Our Service</a>
+        <a class="navbar-brand " href="#">
+            <img
+            src="img.PNG"
+            width="130"
+            height="60"
+            class="d-inline-block align-top"
+            alt=""
+          />
+        </a>
+        <a class="flex-sm-fill text-sm-center nav-link lien" href="#team">Our Team</a>
+        <a class="flex-sm-fill text-sm-center nav-link lien" href="#mes">Contact Us</a>
+      </nav>
+
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="data:image/jpeg;base64,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" class="d-block w-100 pic" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 id="h1">WELCOME TO PVG-TECH SOLUTION</h1>
+            <p id="h3">Always at your Service!!!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+            <img src="data:image/jpeg;base64,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" class="d-block w-100 pic" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            <h3 class="h3">Customers first</h3>
+            <h5 class="h5">The consumer is our top priority. And every day we’re hyper-focused on making you love the product we build, install or fix for you. 
+              We put ourselves in the consumers’ shoes to give the the best exprience and make their lives easier.</h5>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="data:image/jpeg;base64,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" class="d-block w-100 pic" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            <h3 class="h3">Do the right thing</h3>
+            <h5 class="h5">What do you do when no one else is looking? Our teams act with integrity and honesty, and focus on putting ourselves in the shoes of others.</h5>
+          </div>
+        </div>
+      <div class="carousel-item">
+            <img src="data:image/jpeg;base64,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" class="d-block w-100 pic" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+              <h3 class="h3">Get it done</h3>
+              <h5 class="h5">Clients trust us to build things that work and we take that seriously. 
+                Our team will overcome obstacles, find solutions and deliver exceptional results.</h5>   
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <div class="container container1">
+      <h1 id="about">About Us</h1>
+      <p style="padding: 0 0 2% 0">
+        Welcome to <b>PVG-Thech Solutions</b>, your number one source for all things [product]. 
+        We're dedicated to giving you the very best of [product], with a focus on [store characteristic 1], [store characteristic 2], [store characteristic 3].
+        <br><br>
+        Founded in 2020 by Miss V, LipLip & Grace, <b>PVG-Thech Solutions</b> has come a long way from its beginnings in [starting location]. When [founder name] first started out, [his/her/their] passion for [brand message - e.g. "eco-friendly cleaning products"] drove them to [action: quit day job, do tons of research, etc.] so that veronique abakar can offer you [competitive differentiator - e.g. "the world's most advanced toothbrush"]. We now serve customers all over [place - town, country, the world], and are thrilled that we're able to turn our passion into [my/our] own website.
+        <br><br>
+        we hope you enjoy our Service as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact [me/us].
+        <br>
+        <br>
+        Sincerely,
+        <br><br>
+        Our Team      
+      </p>
+    </div>
+
+    <hr class="hr">
+    
+    <div class="container main">      
+      <h1 id="service">Our Service</h1>
+      <div class="row grid1">
+        <div class="col column">
+          <i class="fas fa-tools"></i>
+          <br><br>
+          <h5><b>Repairation</b></h5>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Consectetur modi molestias nulla odio delectus. Dignissimos neque
+            aliquam labore id amet, autem sed. Aspernatur asperiores, blanditiis
+            ullam quam molestias ratione eaque?
+          </p>
+        </div>
+
+        <div class="col column">
+          <i class="fas fa-laptop-code"></i>
+          <br /><br />
+          <h5><b>Software Installation</b></h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum
+            doloremque deleniti magnam sequi doloribus, odit voluptas modi nam
+            distinctio in! Quisquam accusantium perferendis ducimus doloribus
+            esse voluptate dicta deleniti. Praesentium.
+          </p>
+        </div>
+
+        <div class="col column">
+          <i class="fas fa-microchip"></i>
+          <br /><br />
+          <h5><b>Hardware Installation</b></h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate
+            at et natus aperiam, repudiandae, mollitia, accusantium laborum
+            eveniet nobis officiis quibusdam blanditiis officia accusamus.
+            Officia minima veniam quasi soluta voluptatum!
+          </p>
+        </div>
+
+        <div class="col">
+          <i class="fas fa-drafting-compass"></i>
+          <br /><br />
+          <h5><b>Graphic Design</b></h5>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+            alias, tempora aliquid officia vel sint fugit magnam dolor, aut nemo
+            nam rerum provident. Cum error nemo nisi tempora voluptatem aperiam.
+          </p>
+        </div>
+      </div>
+     </div>
+ 
+     <hr class="hr">     
+
+    <div class="container main">
+      <h1 id="#team">Our Team</h1>
+      <div class="row grid3">
+        <div class="col">
+          <img src="liplip.jpg" alt="Philipa" class="teampic">
+          <br><br>
+          <h5><b>Philipa Acheampomaa Sarfo</b></h5>
+          <p>Aerospace Engineer</p>
+        </div>
+
+        <div class="col">
+            <img src="liplip.jpg" alt="Philipa" class="teampic">
+          <br><br>
+            <h5><b>Philipa Acheampomaa Sarfo</b></h5>
+          <p>Aerospace Engineer</p>
+          </div>
+
+          <div class="col">
+              <img src="liplip.jpg" alt="Philipa" class="teampic">
+          <br><br>
+              <h5><b>Philipa Acheampomaa Sarfo</b></h5>
+          <p>Aerospace Engineer</p>
+          </div>
+      </div>
+    </div>
+
+    <hr class="hr">
+
+    <div class="container">
+      <div class="row grid2">
+        <div class="col">
+          <h4 id="mes" style="color: #273c75;">Send us a message</h4>
+          <hr>
+          <form>
+            <div class="form-row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Enter your name">
+              </div>
+              <div class="col">
+                <input type="email" class="form-control" placeholder="Enter your email">
+              </div>
+            </div>
+            <br>
+            <div>
+              <input type="text" class="form-control" placeholder="Subject">
+            </div>
+            <br>
+            <div>
+              <textarea class="form-control" id="" cols="100" rows="10"></textarea>
+              <!-- <input type="text" class="form-control" placeholder="Subject"> -->
+            </div>
+          </form>       
+        </div>
+
+        <div class="col">
+          <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.4743792534464!2d-0.15293101290458952!3d5.644288104252146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9d51cec996ed%3A0xc793a335fc19e819!2sMEST%20Incubator%20Accra!5e0!3m2!1sen!2sgh!4v1582911424712!5m2!1sen!2sgh" 
+          width="100%" height="440" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm content">
+              <h4>Quick Links</h4>
+              <ul>
+                <li><a href="#about" class="bottom-link">About Us</a></li>
+                <li><a href="#sevice"class="bottom-link">Our Service</a></li>
+                <li><a href="#team"class="bottom-link">Our Team</a></li>
+                <li><a href="#mes"class="bottom-link">Send us a message</a></li>
+              </ul>
+            </div>
+            <div class="col-sm">
+              <h4>Find us on Social media</h4>
+              <ul>
+                <li><i class="fab fa-facebook-f media"></i> <a>@pvg_tech</a></li>
+                <li><i class="fab fa-instagram media"></i>  <a>@pvg_tech</a></li>
+                <li> </i><i class="fab fa-twitter media"></i> <a>@pvg_tech</a></li>
+                <li><i class="fab fa-linkedin-in media"></i>  <a>@pvg_tech</a></li>
+              </ul>
+            </div>
+            <div class="col-sm content">
+              <h4>Contact Us</h4>
+              <ul>
+                <li>KA PMB 36 KIA Accra, Ghana </li>
+                <li>Digital Address: GL – 125 - 6946</li>    
+                <li>+233 (0) 302 550 612</li>
+                <li>info@gacl.com.gh</li>    
+              </ul>
+            </div>
+          </div>
+        </div>
+    </footer>
+  </body>
+</html>

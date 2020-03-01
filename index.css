@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Spartan&display=swap");
+
+body {
+  font-family: "Spartan";
+  font-size: 20px;
+}
+
+b {
+  color: #fbc531;
+}
+
+.pic {
+  width: 100%;
+  height: 90vh;
+}
+
+.teampic {
+  width: 70%;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.nav {
+  background-color: #273c75;
+  padding: 0;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.lien {
+  color: #fbc531;
+  font-size: 20px;
+  /* padding-top: 8px; */
+}
+
+.lien:hover {
+  color: #fbc531;
+}
+
+.container1 {
+  padding: 3% 0 0 0;
+}
+
+.hr {
+  width: 70%;
+}
+
+.grid1 {
+  padding: 0 0 4%;
+}
+
+.grid2 {
+  padding: 4% 0;
+}
+
+.grid3 {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  text-align: center;
+}
+
+#h1 {
+  color: #fbc531;
+  font-size: 60px;
+  /* font-weight: 800; */
+  font-family: "Comfortaa";
+  text-decoration: none;
+}
+
+#h3 {
+  color: #fbc531;
+  font-size: 30px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.h3 {
+  color: #fbc531;
+  font-size: 50px;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.h5 {
+  color: #fbc531;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+h4 {
+  color: #fbc531;
+}
+
+h1,
+h5 {
+  padding-bottom: 2%;
+  text-align: center;
+  color: #273c75;
+}
+
+h1 {
+  padding: 2% 0 5% 0;
+  text-decoration: underline;
+}
+
+.column {
+  border-right: 1px solid#a5b1c2;
+}
+
+i {
+  font-size: 55px;
+  color: #fbc531;
+}
+
+ul {
+  padding: 0;
+}
+
+.bottom-link {
+  color: white;
+  text-decoration: underline;
+}
+
+.bottom-link:hover {
+  color: #fbc531;
+}
+
+li {
+  list-style: none;
+}
+
+footer {
+  color: white;
+  background-color: #34495e;
+  padding: 3% 0;
+}
+
+.content {
+  padding-left: 5%;
+}
+
+.media {
+  font-size: 20px;
+  color: #fbc531;
+}
+
+@media (min-width: 360px) {
+}
+
+@media (min-width: 640px) {
+}
+
+@media (min-width: 768px) {
+}
